@@ -55,7 +55,6 @@ Temps = (Capacitat bateries * Eficiència / Potència (VA)) * 60
 Capacitat bateries = (Temps * Potència (VA) / Eficiència) / 60
 ```
 
-
 Exemples amb models proposats:  
 
 - **SAI 4000 VA**: (10 * 4000 / 0,7) / 60 = 952,4 Ah  
@@ -64,17 +63,17 @@ Exemples amb models proposats:
 ---
 
 ## 5. Models cercats i comparats
-| Característica | SLC‑4000 TWIN PRO3 | SLC‑4000 TWIN RT3 | SLC‑7,5 CUBE4 |
-|----------------|------------------|-----------------|----------------|
-| Marca          | Salicru           | Salicru          | Salicru         |
-| Tipus          | On-line monofàsic (torre) | On-line monofàsic (torre/rack convertible) | On-line trifàsic (3F+N) |
-| Potència       | 4000 VA           | 4000 VA          | 7500 VA         |
-| Sortida        | ±1% tensió / THDv <1% lineal | ±1% tensió / THDv <1% lineal | ±1% tensió / THDv <1% lineal |
-| Rendiment      | 95% On-line / 98% Eco | 95% On-line / 98% Eco | >96% On-line / fins 98% Eco |
-| Treball en paral·lel | Sí, fins a 3 equips | Sí, fins a 3 equips | Sí, fins a 4 equips |
-| Dimensions     | 492×225×589 mm    | 570×438×220 mm   | 689×250×827 mm  |
-| Pes            | 51 kg             | 55,6 kg          | 88 kg           |
-| Preu estimat   | 1900 €            | 2200 €           | 4600 €          |
+| Característica     | SLC‑4000 TWIN PRO3                  | SLC‑4000 TWIN RT3                     | SLC‑7,5 CUBE4                     |
+|-------------------|------------------------------------|--------------------------------------|----------------------------------|
+| Marca             | Salicru                            | Salicru                               | Salicru                           |
+| Tipus             | On-line monofàsic (torre)          | On-line monofàsic (torre/rack convertible) | On-line trifàsic (3F+N)          |
+| Potència          | 4000 VA                            | 4000 VA                               | 7500 VA                           |
+| Sortida           | ±1% tensió / THDv <1% lineal       | ±1% tensió / THDv <1% lineal         | ±1% tensió / THDv <1% lineal     |
+| Rendiment         | 95% On-line / 98% Eco              | 95% On-line / 98% Eco                 | >96% On-line / fins 98% Eco      |
+| Treball en paral·lel | Sí, fins a 3 equips               | Sí, fins a 3 equips                    | Sí, fins a 4 equips               |
+| Dimensions        | 492×225×589 mm                     | 570×438×220 mm                        | 689×250×827 mm                    |
+| Pes               | 51 kg                               | 55,6 kg                               | 88 kg                             |
+| Preu estimat      | 1900 €                              | 2200 €                                 | 4600 €                            |
 
 ---
 
