@@ -40,3 +40,8 @@ Redacció d’un informe amb:
 
 ## Material de suport
 - Apunts [RA1AA3 El SAI](https://docs.google.com/presentation/d/15BA6k08MLx_72_gzstlj2snat0b6eHfm/edit?usp=drive_link&ouid=104728425662496836733&rtpof=true&sd=true)
+
+## Solució
+A l'arxiu [solucio.md](solucio.md) hi ha solució descrita.
+
+[Tornar pàgina projecte](../README.md)
