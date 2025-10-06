@@ -33,3 +33,11 @@ Durant el projecte, ens enfrontarem a tasques diverses com:
 - Recuperar sistemes bloquejats i configurar servidors **Linux**.  
 - Desplegar serveis de xarxa com **DHCP**.  
 - Desenvolupar i presentar una **pàgina web o proposta de hosting**.  
+
+---
+
+## 📝 Tasques
+
+Podeu consultar totes les tasques fent clic a la tasca corresponent:
+- [Tasca 2](tasca02/README.md)
+- [Tasca 3](tasca03/README.md)
