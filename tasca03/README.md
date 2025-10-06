@@ -11,7 +11,7 @@ Han arribat a la consultora un equip provinent d’un client que demana que els 
 - Problema: El directiu ha oblidat la contrasenya i cal recuperar l’accés perquè hi ha documentació molt important.  
 - Solució segura: Per evitar danyar l’equip original, s’ha **clonat el disc en un disc virtual** sobre el qual treballareu.
 
-![Imatge de presentació del projecte](img/tasca03.png)
+![Imatge de presentació del projecte: Es veu a dos nois mirant al ordinador del client](img/tasca03.png)
 
 ## Passos inicials
 1. Crear una **màquina virtual** i connectar-hi el disc clònic.  
