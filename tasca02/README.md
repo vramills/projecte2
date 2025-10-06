@@ -11,6 +11,8 @@ Davant les constants incidències amb el subministrament elèctric a la zona, la
 
 S’han posat en contacte amb l’empresa on esteu fent l’estada i el vostre responsable us ha encarregat que en feu l’estudi i tria del SAI.
 
+![Imatge de presentació del projecte](img/tasca02.png)
+
 ## Tasques a realitzar
 
 ### 1. Inventari d’equips
