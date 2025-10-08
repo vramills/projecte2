@@ -75,3 +75,5 @@ El domini .io transmet una imatge tecnològica i global, reforçant la identitat
 
 ### Per què aquesta proposta és la millor opció:
 La solució escollida combina tecnologia, seguretat i rendiment. El domini `motobits.io` reforça la imatge moderna i global, mentre que el hosting OVH Web Cloud garanteix una infraestructura estable i escalable, essencial per a una startup IoT en expansió.
+
+[Tornar a enunciat](README.md)
