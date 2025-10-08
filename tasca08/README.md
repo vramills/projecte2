@@ -80,3 +80,8 @@ Aquesta tasca té com a objectiu que aprengueu a treballar amb **Markdown**, ja 
 - Quins criteris han estat més decisius  
 - Per què aquesta proposta és la millor opció per al client
 ```
+## Solució
+- A l'arxiu [client04.md](client04.md) hi ha la fitxa del primer client.
+- A l'arxiu [client06.md](client06.md) hi ha la fitxa del segon client.
+
+[Tornar pàgina projecte](../README.md)
