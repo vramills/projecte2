@@ -41,3 +41,4 @@ Durant el projecte, ens enfrontarem a tasques diverses com:
 Podeu consultar totes les tasques fent clic a la tasca corresponent:
 - [Tasca 2](tasca02/README.md)
 - [Tasca 3](tasca03/README.md)
+- [Tasca 8](tasca08/README.md)
