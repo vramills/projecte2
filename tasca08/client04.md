@@ -1,39 +1,48 @@
 # 🧾 Proposta de domini i hosting per al client **MataróSurf School**
 
 ## 1. Presentació del client
-- **Breu descripció del negoci**  
-  MataróSurf School és una escola esportiva ubicada a la costa del Maresme, especialitzada en l’ensenyament del surf i altres esports aquàtics. Ofereixen cursos per a totes les edats i nivells, especialment durant la temporada d’estiu.
 
-- **Objectius principals de la web**  
-  La web ha de permetre gestionar reserves de cursos de surf i promocionar activitats mitjançant una presentació atractiva amb fotos i vídeos. També ha de reforçar la presència de la marca a Internet i integrar-se amb xarxes socials com Instagram i YouTube.
+### Breu descripció del negoci
+MataróSurf School és una escola esportiva ubicada a la costa del Maresme, especialitzada en l’ensenyament del surf i altres esports aquàtics. Ofereixen cursos per a totes les edats i nivells, especialment durant la temporada d’estiu.
 
-- **Requeriments tècnics identificats**
-  - Sistema multiidioma (català, castellà, anglès)
-  - Galeria d’imatges i vídeos
-  - Formulari de reserves (amb confirmació per correu)
-  - Integració amb Instagram i YouTube
-  - Compliment del RGPD
-  - Bon rendiment durant els mesos de màxima activitat (juny - setembre)
-  - Necessitat de CDN i ample de banda mínim de 500 GB/mes
+### Objectius principals de la web
+La web ha de:
+- Permetre gestionar reserves de cursos de surf.
+- Promocionar activitats amb fotos i vídeos atractius.
+- Reforçar la presència de la marca a Internet.
+- Integrar-se amb xarxes socials com Instagram i YouTube.
+
+### Requeriments tècnics identificats
+- Sistema multiidioma (català, castellà, anglès)
+- Galeria d’imatges i vídeos
+- Formulari de reserves amb confirmació per correu
+- Integració amb Instagram i YouTube
+- Compliment del RGPD
+- Bon rendiment durant els mesos de màxima activitat (juny - setembre)
+- Necessitat de CDN i ample de banda mínim de 500 GB/mes
 
 ---
 
 ## 2. Anàlisi de dominis
-- **Criteris per al naming**
-  - Ha de transmetre una imatge creativa i vinculada al mar i al surf
-  - Curt i fàcil de recordar
-  - Bona adaptació per a SEO (inclosos termes “surf” i “Mataró”)
-  - Preferència per extensions .school o .cat per coherència amb el tipus de negoci i l’àmbit local
 
-- **Alternatives de dominis disponibles**
-  - matarosurf.school — Disponible (~35 €/any)
-  - matarosurf.cat — Disponible (~15 €/any)
-  - surfmataro.cat — Disponible (~15 €/any)
-  - matarosurfing.com — Disponible (~12 €/any)
+### Criteris per al naming
+- Ha de transmetre una imatge creativa i vinculada al mar i al surf
+- Curt i fàcil de recordar
+- Bona adaptació per a SEO (inclosos termes “surf” i “Mataró”)
+- Preferència per extensions .school o .cat per coherència amb el tipus de negoci i l’àmbit local
 
-- **Recomanació final de domini**
-  - **Domini recomanat:** matarosurf.school  
-  - **Motiu:** És directe, professional, internacional i reforça la idea d’una escola especialitzada. A més, l’extensió .school aporta credibilitat i identitat pròpia al sector educatiu.
+### Alternatives de dominis disponibles
+
+| Domini               | Estat       | Preu aproximat |
+|----------------------|------------|----------------|
+| matarosurf.school    | Disponible | 35 €/any       |
+| matarosurf.cat       | Disponible | 15 €/any       |
+| surfmataro.cat       | Disponible | 15 €/any       |
+| matarosurfing.com    | Disponible | 12 €/any       |
+
+### Recomanació final de domini
+**Domini recomanat:** `matarosurf.school`  
+**Motiu:** És directe, professional, internacional i reforça la idea d’una escola especialitzada. L’extensió .school aporta credibilitat i identitat pròpia al sector educatiu.
 
 ---
 
@@ -65,18 +74,21 @@
 
 **Justificació de la decisió:**  
 El pla GrowBig de SiteGround ofereix un equilibri òptim entre rendiment, seguretat i escalabilitat. Disposa de CDN Cloudflare, SSL gratuït, backups diaris, servidors europeus (complint el RGPD) i suport 24/7.  
-A més, és ideal per a webs amb trànsit variable com MataróSurf School, especialment durant la temporada alta d’estiu.  
+És ideal per a webs amb trànsit variable com MataróSurf School, especialment durant la temporada alta d’estiu.  
 L’extensió .school reforça la identitat educativa i facilita el posicionament de marca.
 
 ---
 
 ## 6. Conclusions
-- **Criteris decisius:**
-  - Compliment del RGPD i servidors a la UE  
-  - Rendiment i seguretat  
-  - Suport tècnic ràpid i fiable  
-  - CDN integrat i ample de banda elevat  
-  - Bona relació qualitat/preu  
 
-- **Per què aquesta proposta és la millor opció:**  
-  Perquè ofereix una solució escalable, segura i professional adaptada a les necessitats específiques d’una escola de surf. Facilita la gestió de reserves, la promoció visual amb vídeos i fotografies, i garanteix una experiència fluida per a usuaris internacionals.
+### Criteris decisius
+- Compliment del RGPD i servidors a la UE  
+- Rendiment i seguretat  
+- Suport tècnic ràpid i fiable  
+- CDN integrat i ample de banda elevat  
+- Bona relació qualitat/preu  
+
+### Per què aquesta proposta és la millor opció
+Ofereix una solució escalable, segura i professional adaptada a les necessitats específiques d’una escola de surf. Facilita la gestió de reserves, la promoció visual amb vídeos i fotografies, i garanteix una experiència fluida per a usuaris internacionals.
+
+[Tornar a enunciat](README.md)
