@@ -45,7 +45,7 @@ Aquesta tasca té com a objectiu que aprengueu a treballar amb **Markdown**, ja 
 
 ## 🧩 Plantilla en format Markdown
 
-```markdown
+```
 # Proposta de domini i hosting per al client [Nom del client]
 
 ## 1. Presentació del client
@@ -79,3 +79,4 @@ Aquesta tasca té com a objectiu que aprengueu a treballar amb **Markdown**, ja 
 ## 6. Conclusions
 - Quins criteris han estat més decisius  
 - Per què aquesta proposta és la millor opció per al client
+```
