@@ -123,3 +123,5 @@ Després reiniciem el sistema i comprovem que ens demana usuari i contrasenya ab
 ## Resultat
 
 Amb aquest procediment, protegim el nostre equip contra accessos no autoritzats, tant pel que fa a la recuperació de contrasenyes com a la modificació de la configuració d’arrencada.
+
+[Tornar a enunciat](README.md)
