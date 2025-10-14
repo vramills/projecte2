@@ -42,6 +42,8 @@ Finalment, reiniciem la màquina amb normalitat i ja podrem iniciar sessió sens
 
 Verifiquem que podem accedir amb normalitat a l’usuari després del canvi de contrasenya.
 
+<img src="img/09.png" alt="Pantalla d’inici de Zorin OS" width="550">
+
 ---
 
 ## Fortificació de l’accés al GRUB
@@ -64,7 +66,7 @@ Però com que **afegir manualment el hash a un fitxer no és pràctic**, farem s
 grub-mkpasswd-pbkdf2 | tee hash.txt
 ```
 
-<img src="img/09.png" alt="Comanda per a crear el hash" width="550">
+<img src="img/10.png" alt="Comanda per a crear el hash" width="550">
 
 Assignem la contrasenya: **everpia2025@**
 
@@ -78,11 +80,11 @@ Obrim l’editor nano amb multibuffer:
 sudo nano -F /etc/grub.d/40_custom
 ```
 
-<img src="img/10.png" alt="Editant el fitxer /etc/grub.d/40_custom" width="550">
+<img src="img/11.png" alt="Editant el fitxer /etc/grub.d/40_custom" width="550">
 
 Premem `CTRL + R` i introduïm el nom del fitxer d’origen (`hash.txt`). Veiem el contingut del fitxer a la pantalla.
 
-<img src="img/11.png" alt="Introduint el fitxer d’origen" width="550">
+<img src="img/12.png" alt="Introduint el fitxer d’origen" width="550">
 
 Copiem el bloc de text amb el hash. Ens situem a l’inici de la línia, premem `ALT + A`, anem fins al final (amb el cursor o `CTRL + E`) i copiem amb `ALT + 6`. Tanquem el fitxer amb `CTRL + X`.
 
@@ -98,7 +100,7 @@ password_pbkdf2 nom_login <hash_generat>
 - El hash s’enganxa a la segona línia després del nom d’usuari (`CTRL + U`).  
 - Aquest usuari no cal que coincideixi amb un usuari del sistema operatiu.
 
-<img src="img/12.png" alt="A dins de /etc/grub.d/40_custom" width="550">
+<img src="img/13.png" alt="A dins de /etc/grub.d/40_custom" width="550">
 
 Un cop fet, desem i sortim de nano.
 
@@ -110,11 +112,11 @@ Executem:
 sudo grub-mkconfig -o /boot/grub/grub.cfg
 ```
 
-<img src="img/13.png" alt="Aplicant els canvis del GRUB" width="550">
+<img src="img/14.png" alt="Aplicant els canvis del GRUB" width="550">
 
 Després reiniciem el sistema i comprovem que ens demana usuari i contrasenya abans de carregar el gestor d’arrencada.
 
-<img src="img/14.png" alt="Pantalla de login en intentar entrar al gestor d’arrencada" width="550">
+<img src="img/15.png" alt="Pantalla de login en intentar entrar al gestor d’arrencada" width="550">
 
 ---
 
