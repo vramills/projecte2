@@ -120,6 +120,42 @@ Després reiniciem el sistema i comprovem que ens demana usuari i contrasenya ab
 
 ---
 
+### EXTRA: demanar la contrasenya del GRUB només per editar o per mode recovery
+
+Ara documentarem com fer que només es demani la contrasenya del GRUB quan volem editar-lo o iniciar el sistema en mode recovery.
+
+1. Obrir la terminal com a root i utilitzar `gedit` per editar l’arxiu necessari:
+
+   <img src="img/16.png" alt="Executant la comanda gedit" width="350">
+
+3. Un cop dins, obrirem el fitxer `/etc/grub.d/10_linux`, que és on farem la modificació:
+
+   <img src="img/17.png" alt="A dins del fitxer etc/grub.d/10_linux" width="550">
+
+3. Dins l’arxiu hem de localitzar la línia on apareix l’opció `--class os` (sovint dins d’una definició de classe o d’una línia que comença amb `CLASS=`).
+
+   <img src="img/18.png" alt="Editant el fitxer etc/grub.d/10_linux" width="750">
+   
+   Perquè la contrasenya del GRUB només es demani quan intentem editar una entrada o iniciar en mode recovery,
+   afegiu l’opció `--unrestricted` just després de `--class os`, quedant així:
+
+   <img src="img/19.png" alt="Editant el fitxer etc/grub.d/10_linux" width="750">
+   
+   Aquesta modificació fa que les entrades marcades com a "unrestricted" s’executin sense demanar autenticació;
+   la resta d’operacions sensibles (com editar una línia del GRUB o accedir al mode recovery) seguiran exigint
+   usuari i contrasenya.
+
+5. Desa el fitxer i aplica els canvis a la configuració del GRUB:
+
+   <img src="img/20.png" alt="Executant la comanda update-grub2" width="450">
+   
+   Un cop fet això, **reiniciem el sistema** i comprovem que **ja no es demana la contrasenya per arrencar la
+   màquina de manera normal**, però sí quan intentem **editar el GRUB o accedir al mode de recuperació**.
+
+   <img src="img/21.png" alt="Iniciant la màquina Zorin" width="550">
+
+---
+
 ## Resultat
 
 Amb aquest procediment, protegim el nostre equip contra accessos no autoritzats, tant pel que fa a la recuperació de contrasenyes com a la modificació de la configuració d’arrencada.
